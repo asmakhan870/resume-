@@ -1,0 +1,1322 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.font {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  padding-top: 40px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+ul {
+  font-size: 12px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.logbt {
+  padding: 12px 23px;
+  background-color: #FA5959;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logbt:hover {
+  background-color: rgb(234, 234, 236);
+  color: black;
+}
+
+.relative {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 150px;
+}
+
+.content {
+  width: 32%;
+}
+
+.bgimage {
+  display: flex;
+  justify-content: center;
+}
+
+.mainimg {
+  position: relative;
+  z-index: 9;
+  width: 500px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 17px;
+  color: rgb(151, 150, 150);
+  font-weight: lighter;
+}
+
+.purrec {
+  background-color: rgb(110, 110, 248);
+  height: 300px;
+  width: 955px;
+  position: absolute;
+  top: 260px;
+  right: 0;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  overflow: hidden;
+}
+
+.purpbtn {
+  padding: 13px 22px;
+  color: white;
+  background-color: rgb(110, 110, 248);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: 5px 5px 20px grey;
+  cursor: pointer;
+}
+
+.purpbtn:hover {
+  background-color: rgb(234, 234, 236);
+  color: black;
+}
+
+.graybtn {
+  padding: 12px 22px;
+  background-color: rgb(234, 234, 236);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: 5px 5px 20px grey;
+  cursor: pointer;
+}
+
+.graybtn:hover {
+  background-color: rgb(110, 110, 248);
+  color: white;
+}
+
+.button2 {
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bg-bookmark {
+  background-color: rgb(247 247 247);
+  margin-top: 120px;
+  padding-top: 40px;
+}
+
+.text-bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: lighter;
+  text-align: center;
+}
+
+.fp {
+  width: 50%;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 150px;
+  gap: 5%;
+}
+
+.infobt {
+  padding: 13px 22px;
+  color: white;
+  background-color: rgb(110, 110, 248);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: 5px 5px 20px grey;
+  cursor: pointer;
+}
+
+.infobt:hover {
+  background-color: rgb(234, 234, 236);
+  color: black;
+}
+
+.purrec1 {
+  background-color: rgb(110, 110, 248);
+  height: 300px;
+  width: 800px;
+  position: absolute;
+  top: 220px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  overflow: hidden;
+}
+
+.purrec2 {
+  background-color: rgb(110, 110, 248);
+  height: 300px;
+  width: 920px;
+  position: absolute;
+  right: 0;
+  top: 300px;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  overflow: hidden;
+}
+
+.purrec3 {
+  background-color: rgb(110, 110, 248);
+  height: 330px;
+  width: 800px;
+  position: absolute;
+  top: 270px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  overflow: hidden;
+}
+
+.down-exten {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  width: 50%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 5px 5px 20px grey;
+  padding: 15px 0;
+}
+
+.piccard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid rgb(241, 240, 240);
+  margin: 18px 0;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.h13 {
+  width: 50%;
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: start;
+}
+
+.FAQ-sec {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.FAQ {
+  padding: 50px 0;
+}
+
+.FAQ1 {
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  flex: 1;
+  cursor: pointer;
+  color: rgb(53, 53, 54);
+}
+
+.FAQ-bt {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contbg {
+  background-color: rgb(110, 110, 248);
+}
+
+.contactus {
+  padding: 70px 0;
+
+}
+
+.contactus1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p35 {
+  font-size: 18px;
+  color: white;
+}
+
+.inputdiv {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.input {
+  padding: 18px 200px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.footer {
+  background-color: rgb(1, 1, 39);
+  padding: 25px 0;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foot1 {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+
+.ul1 {
+  display: flex;
+  gap: 20px;
+}
+
+.tw-fb-logo {
+  width: 45px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.fa-bars {
+  width: 22px;
+}
+
+.bars {
+  display: none;
+}
+
+@media only screen and (max-width:400px) and (min-width:0px) {
+  .navbar {
+    padding: 14px 14px 0 14px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+    cursor: pointer;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 45px 15px 0 15px;
+  }
+
+  .purrec {
+    display: none;
+  }
+
+  .purrec1 {
+    display: none;
+  }
+
+  .purrec2 {
+    display: none;
+  }
+
+  .purrec3 {
+    display: none;
+  }
+
+  .mainimg {
+    width: 320px;
+  }
+
+  .bgimage {
+    order: -1;
+    padding-bottom: 55px;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .button {
+    flex-direction: column;
+  }
+
+  .button2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-bookmark {
+    margin-top: 100px;
+    padding: 70px 0 55px 0;
+  }
+
+  .fp {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .container1 {
+    flex-direction: column;
+    padding: 50px 14px 20px 14px;
+  }
+
+  .h13 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .card-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .cards {
+    margin-bottom: 40px;
+  }
+
+  .piccard {
+    width: 100%;
+  }
+
+  .FAQ-sec {
+    padding-top: 5px;
+  }
+
+  .FAQ {
+    padding: 30px 0 10px 0px;
+    width: 95%;
+  }
+
+  .FAQ-bt {
+    padding-top: 40px;
+  }
+
+  .inputdiv {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .foot {
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0;
+  }
+
+  .foot1 {
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+
+  .ul1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 50px;
+  }
+
+}
+
+@media only screen and (max-width:639px) and (min-width:401px) {
+  .navbar {
+    padding: 14px 14px 0 14px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+    cursor: pointer;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 45px 15px 0 15px;
+  }
+
+  .purrec {
+    display: none;
+  }
+
+  .purrec1 {
+    display: none;
+  }
+
+  .purrec2 {
+    display: none;
+  }
+
+  .purrec3 {
+    display: none;
+  }
+
+  .mainimg {
+    max-width: 100%;
+  }
+
+  .bgimage {
+    order: -1;
+    padding-bottom: 55px;
+
+  }
+
+  #fea-img {
+    width: 410px;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+  .button2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-bookmark {
+    margin-top: 100px;
+    padding: 70px 0 55px 0;
+  }
+
+  .fp {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .container1 {
+    flex-direction: column;
+    padding: 50px 14px 20px 14px;
+  }
+
+  .h13 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .card-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .cards {
+    margin-bottom: 40px;
+  }
+
+  .piccard {
+    width: 100%;
+  }
+
+
+  .FAQ-sec {
+    padding-top: 5px;
+  }
+
+  .FAQ {
+    padding: 30px 0 10px 0px;
+    width: 95%;
+  }
+
+  .FAQ-bt {
+    padding-top: 40px;
+  }
+
+  .inputdiv {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .foot {
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0;
+  }
+
+  .foot1 {
+    padding-bottom: 20px;
+
+  }
+
+  .ul1 {
+    gap: 50px;
+  }
+
+}
+
+@media only screen and (max-width:767px) and (min-width:640px) {
+  .navbar {
+    padding: 70px 14px 0 14px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 55px 15px 0 15px;
+  }
+
+  .purrec {
+    display: none;
+  }
+
+  .purrec1 {
+    display: none;
+  }
+
+  .purrec2 {
+    display: none;
+  }
+
+  .purrec3 {
+    display: none;
+  }
+
+  .mainimg {
+    max-width: 85%;
+  }
+
+  .bgimage {
+    order: -1;
+    padding-bottom: 55px;
+
+  }
+
+  #fea-img {
+    width: 410px;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+  .button2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-bookmark {
+    margin-top: 100px;
+    padding: 70px 0 55px 0;
+  }
+
+  .fp {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  #fea-para {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .container1 {
+    flex-direction: column;
+    padding: 50px 14px 20px 14px;
+  }
+
+  .h13 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .card-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .cards {
+    margin-bottom: 40px;
+  }
+
+  .piccard {
+    width: 100%;
+  }
+
+
+  .FAQ-sec {
+    padding-top: 5px;
+  }
+
+  .FAQ {
+    padding: 30px 0 10px 0px;
+    width: 70%;
+  }
+
+  .FAQ-bt {
+    padding-top: 40px;
+  }
+
+
+  .foot {
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0;
+  }
+
+  .foot1 {
+    padding-bottom: 20px;
+
+  }
+
+  .ul1 {
+    gap: 50px;
+  }
+
+}
+
+@media only screen and (max-width:1023px) and (min-width:768px) {
+  .navbar {
+    padding-top: 40px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 75px 15px 0 15px;
+  }
+
+  .purrec {
+    width: 50%;
+    top: 220px;
+  }
+
+  .purrec1 {
+    display: none;
+  }
+
+  .purrec2 {
+    display: none;
+  }
+
+  .purrec3 {
+    display: none;
+  }
+
+  .mainimg {
+    width: 570px;
+  }
+
+  .bgimage {
+    order: -1;
+    padding-bottom: 90px;
+
+  }
+
+  #fea-img {
+    width: 450px;
+  }
+
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+  .button2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-bookmark {
+    margin-top: 100px;
+    padding: 70px 0 55px 0;
+  }
+
+  .fp {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  #fea-para {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .container1 {
+    flex-direction: column;
+    padding: 50px 14px 20px 14px;
+  }
+
+  .h13 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .card-container {
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .cards {
+    margin-bottom: 40px;
+  }
+
+  .piccard {
+    width: 100%;
+  }
+
+
+  .FAQ-sec {
+    padding-top: 5px;
+  }
+
+  .FAQ {
+    padding: 30px 0 10px 0px;
+    width: 70%;
+  }
+
+  .FAQ-bt {
+    padding-top: 40px;
+  }
+
+
+  .foot {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+
+  .ul1 {
+    gap: 50px;
+  }
+
+}
+
+@media only screen and (max-width:1153px) and (min-width:1024px) {
+  .navbar {
+    padding: 70px 14px 0 14px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container {
+    padding: 130px 15px 100px 15px;
+  }
+
+  .purrec {
+    width: 50%;
+    top: 280px;
+  }
+
+  .purrec1 {
+    width: 38%;
+    top: 250px;
+  }
+
+  .purrec2 {
+    width: 50%;
+    top: 320px;
+  }
+
+  .purrec3 {
+    width: 38%;
+    top: 310px;
+  }
+
+  .mainimg {
+    width: 510px;
+  }
+
+  .container1 {
+    flex-direction: row;
+    padding: 130px 15px 0px 15px;
+  }
+
+  #fea-img {
+    width: 500px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  p {
+    width: 90%;
+  }
+
+  .p35 {
+    text-align: center;
+  }
+
+  .p62 {
+    text-align: center;
+  }
+
+  .bg-bookmark {
+    margin-top: 100px;
+    padding: 70px 0 55px 0;
+  }
+
+  .fp {
+    width: 50%;
+    font-size: 16px;
+  }
+
+
+  .h13 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .card-container {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .cards {
+    margin-bottom: 40px;
+  }
+
+  .piccard {
+    width: 100%;
+  }
+
+
+  .FAQ-sec {
+    padding-top: 5px;
+  }
+
+  .FAQ {
+    padding: 30px 0 10px 0px;
+    width: 40%;
+  }
+
+  .FAQ-bt {
+    padding-top: 40px;
+  }
+
+
+  .foot {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+
+  .ul1 {
+    gap: 50px;
+  }
+
+}
+
+@media only screen and (max-width:1802px) and (min-width:1154px) {
+
+  .navbar {
+    padding: 70px 14px 0 14px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 130px 15px 70px 15px;
+    gap: 10%;
+  }
+
+  .purrec {
+    width: 40%;
+    top: 280px;
+  }
+
+  .purrec1 {
+    width: 38%;
+    top: 250px;
+  }
+
+  .purrec2 {
+    width: 50%;
+    top: 320px;
+  }
+
+  .purrec3 {
+    width: 38%;
+    top: 310px;
+  }
+
+  .mainimg {
+    position: relative;
+    z-index: 9;
+    width: 510px;
+  }
+
+  .container1 {
+    flex-direction: row;
+    padding: 130px 15px 0px 15px;
+  }
+
+  #fea-img {
+    width: 500px;
+  }
+
+  .content {
+    width: 40%;
+  }
+
+  p {
+    width: 90%;
+  }
+
+  .p35 {
+    text-align: center;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .p62 {
+    text-align: center;
+  }
+
+  .bg-bookmark {
+    margin-top: 100px;
+    padding: 60px 0 0 0;
+  }
+
+  .fp {
+    width: 50%;
+    font-size: 16px;
+  }
+
+
+  .h13 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .card-container {
+    width: 70%;
+    justify-content: space-evenly;
+    gap: 7%;
+  }
+
+  .cards {
+    margin-bottom: 40px;
+  }
+
+  .piccard {
+    width: 100%;
+  }
+
+
+  .FAQ-sec {
+    padding-top: 5px;
+  }
+
+  .FAQ {
+    padding: 30px 0 10px 0px;
+    width: 50%;
+  }
+
+  .FAQ-bt {
+    padding-top: 40px;
+  }
+
+
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ul1 {
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width:1911px) and (min-width:1803px) {
+
+  .navbar {
+    padding: 70px 14px 0 14px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 150px;
+    gap: 10%;
+  }
+
+  .purrec {
+    width: 47%;
+    top: 270px;
+  }
+
+  .purrec1 {
+    width: 40%;
+    top: 230px;
+  }
+
+  .purrec2 {
+    width: 49%;
+    top: 310px;
+  }
+
+  .purrec3 {
+    width: 41%;
+    top: 315px;
+  }
+
+  .mainimg {
+    position: relative;
+    z-index: 9;
+    width: 510px;
+  }
+
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 150px;
+    gap: 5%;
+  }
+
+  #fea-img {
+    width: 500px;
+  }
+
+  .content {
+    width: 32%;
+  }
+
+  p {
+    width: 90%;
+  }
+
+  .p35 {
+    text-align: center;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .p62 {
+    text-align: center;
+  }
+
+  .bg-bookmark {
+    margin-top: 100px;
+    padding: 60px 0 0 0;
+  }
+
+  .fp {
+    width: 50%;
+    font-size: 16px;
+  }
+
+
+  .h13 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .card-container {
+    width: 70%;
+    justify-content: space-evenly;
+    gap: 7%;
+  }
+
+  .cards {
+    margin-bottom: 40px;
+  }
+
+  .piccard {
+    width: 100%;
+  }
+
+
+  .FAQ-sec {
+    padding-top: 5px;
+  }
+
+  .FAQ {
+    padding: 30px 0 10px 0px;
+    width: 25%;
+  }
+
+  .FAQ-bt {
+    padding-top: 40px;
+  }
+
+
+  .foot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .ul1 {
+    gap: 50px;
+  }
+}
